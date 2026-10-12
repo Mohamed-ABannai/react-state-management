@@ -78,7 +78,7 @@ function handleRemoveFromShoppingCart(ItemsInShop){
 
 
 const filteredCards=shoppingCart.filter((oneItem)=>{
-  return oneItem!==ItemsInShop
+  return oneItem.id!==ItemsInShop.id
 })
 
 console.log(filteredCards)
